@@ -1,0 +1,12 @@
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\bin\Debug\GibiProject.Entities.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\bin\Debug\GibiProject.Entities.pdb
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\obj\Debug\GibiProject.Entities.csproj.AssemblyReference.cache
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\obj\Debug\GibiProject.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\obj\Debug\GibiProject.Entities.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\obj\Debug\GibiProject.Entities.pdb
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\bin\Debug\GibiProject.Entities.dll.config
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\bin\Debug\EntityFramework.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\bin\Debug\EntityFramework.xml
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.Entities\obj\Debug\GibiProject.Entities.csproj.CopyComplete

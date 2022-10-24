@@ -1,0 +1,15 @@
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\GibiProject.DAL.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\GibiProject.DAL.pdb
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\GibiProject.Entities.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\GibiProject.Entities.pdb
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\obj\Debug\GibiProject.DAL.csproj.AssemblyReference.cache
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\obj\Debug\GibiProject.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\obj\Debug\GibiProject.DAL.csproj.CopyComplete
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\obj\Debug\GibiProject.DAL.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\obj\Debug\GibiProject.DAL.pdb
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\GibiProject.DAL.dll.config
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\EntityFramework.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\GibiProject.Entities.dll.config
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\EntityFramework.xml
+C:\Users\ahmet\source\repos\GibiProject\GibiProject.DAL\bin\Debug\EntityFramework.SqlServer.xml
