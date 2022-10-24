@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository.cs" />
     <Compile Include="İnitializer.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -14,10 +14,14 @@ namespace GibiProject.DAL
         {
             Dizi gibi = new Dizi();
             gibi.DiziAdi = "Gibi";
+            gibi.Aciklama = "Açıklama Satırı";
+            gibi.DiziFoto = "gibifoto.jpg";
             context.Dizis.Add(gibi);
 
             Dizi bcs = new Dizi();
             bcs.DiziAdi = "Better Call Saul";
+            bcs.Aciklama = "Açıklama satırı";
+            bcs.DiziFoto = "bcsfoto.jpg";
             context.Dizis.Add(bcs);
 
             Bolum bolum = new Bolum();

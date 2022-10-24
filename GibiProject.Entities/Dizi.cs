@@ -10,6 +10,8 @@ namespace GibiProject.Entities
     {
         public int Id { get; set; }
         public string DiziAdi { get; set; }
+        public string Aciklama { get; set; }
+        public string DiziFoto { get; set; }
         public virtual List<Bolum> Bolum { get; set; }
         public Dizi()
         {

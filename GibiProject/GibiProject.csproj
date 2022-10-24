@@ -113,6 +113,8 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\img\airforce.png" />
     <Content Include="Content\img\apple.jpg" />
+    <Content Include="Content\img\bcsfoto.jpg" />
+    <Content Include="Content\img\gibifoto.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />

@@ -13,6 +13,8 @@ namespace GibiProject.Entities
         public string SoyAd { get; set; }
         public string Email { get; set; }
         public string Telefon { get; set; }
+        public string KullaniciFoto { get; set; }
+
         public string KullaniciAdi { get; set; }
 
     }

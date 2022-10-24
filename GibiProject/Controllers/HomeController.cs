@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GibiProject.BLL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,9 +10,12 @@ namespace GibiProject.Controllers
     public class HomeController : Controller
     {
         // GET: Home
+        DiziManager dizi = new DiziManager();
+
         public ActionResult Index()
         {
-            return View();
+            var dizilist = dizi.DiziList();
+            return View(dizilist);
         }
         public ActionResult Diziler()
         {

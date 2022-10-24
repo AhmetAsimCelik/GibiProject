@@ -12,7 +12,7 @@ namespace GibiProject.DAL
     {
         public Context()
         {
-            Database.Connection.ConnectionString = "Server=DESKTOP-N031PB4; Database=GibiProject; uid=sa; pwd=1";
+            Database.Connection.ConnectionString = "Server=DESKTOP-N031PB4; Database=GibiProject2; uid=sa; pwd=1";
             Database.SetInitializer(new İnitializer());
 
         }
