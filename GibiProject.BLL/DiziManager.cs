@@ -16,5 +16,10 @@ namespace GibiProject.BLL
         {
             return dizi.List();
         }
+        public Dizi BolumGetirDizi(int id)
+        {
+            return dizi.Find(c => c.Id == id);
+        }
+
     }
 }

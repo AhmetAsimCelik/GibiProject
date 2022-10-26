@@ -95,6 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\aac.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -116,6 +117,7 @@
     <Content Include="Content\img\bcsfoto.jpg" />
     <Content Include="Content\img\gibifoto.jpg" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -127,7 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BolumsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KullaniciController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -162,6 +166,19 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Diziler.cshtml" />
+    <Content Include="Views\Dizi\Bolumler.cshtml" />
+    <Content Include="Views\Dizis\Create.cshtml" />
+    <Content Include="Views\Dizis\Delete.cshtml" />
+    <Content Include="Views\Dizis\Details.cshtml" />
+    <Content Include="Views\Dizis\Edit.cshtml" />
+    <Content Include="Views\Dizis\Index.cshtml" />
+    <Content Include="Views\Bolums\Create.cshtml" />
+    <Content Include="Views\Bolums\Delete.cshtml" />
+    <Content Include="Views\Bolums\Details.cshtml" />
+    <Content Include="Views\Bolums\Edit.cshtml" />
+    <Content Include="Views\Bolums\Index.cshtml" />
+    <Content Include="Views\Home\Bolumler.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -172,6 +189,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\DiziController\" />
+    <Folder Include="Views\Kullanici\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GibiProject.BLL\GibiProject.BLL.csproj">
