@@ -31,12 +31,24 @@ namespace GibiProject.Controllers
             return View();
 
         }
+        [HttpPost]
+        public ActionResult Login(Kullanici model)
+        {
+            return View();
+
+        }
         public ActionResult Register()
         {
             return View();
 
         }
+        [HttpPost]
+        public ActionResult Register(Kullanici model)
+        {
+            return View();
 
+
+        }
 
 
 

@@ -117,7 +117,6 @@
     <Content Include="Content\img\bcsfoto.jpg" />
     <Content Include="Content\img\gibifoto.jpg" />
     <Content Include="Content\Site.css" />
-    <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -179,6 +178,7 @@
     <Content Include="Views\Bolums\Index.cshtml" />
     <Content Include="Views\Home\Bolumler.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Register.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

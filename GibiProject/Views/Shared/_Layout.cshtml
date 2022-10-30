@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/aac.css" rel="stylesheet" type="text/css" />
+    
+   
+
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.8.3.js"></script>
 </head>
@@ -18,21 +22,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Ana SAyfa</a>
+                        <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Diziler</a>
-                    </li>                   
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Home/Log">Kayıt Ol</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Giriş</a>
+                        <a class="nav-link" href="/Home/Register">Kayıt Ol</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/Login">Giriş</a>
+                    </li>
+                   
+
                 </ul>
             </div>
         </div>
     </nav>
+    
+
 
     <div class="container body-content">
         @RenderBody()

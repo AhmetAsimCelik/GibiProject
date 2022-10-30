@@ -1,45 +1,28 @@
 ﻿
 @{
-    Layout = null;
+    ViewBag.Title = "Login";
 }
 
-<!DOCTYPE html>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+        <!-- Icon -->
+        <div class="fadeIn first">
+            @*<img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />*@
+            <h3 class="text-center" style="color:cornflowerblue">GİRİŞ</h3>
+        </div>
 
-<html>
- <head>
-     <meta name="viewport" content="width=device-width" />
-     <title>login2</title>
-     <link href="~/Content/style.css" rel="stylesheet" />
- </head>
- <bodylogin>
- 
-     <bodylogin>
-         <div class="main">
-             <input type="checkbox" id="chk" aria-hidden="true">
- 
-             <div class="signup">
-                 <form>
-                     <label for="chk" aria-hidden="true">Kayıt Ol</label>
-                     <input type="text" name="txt" placeholder="User name" required="">
-                     <input type="email" name="email" placeholder="Email" required="">
-                     <input type="password" name="pswd" placeholder="Password" required="">
-                     <button>Kayıt Ol</button>
-                 </form>
-             </div>
- 
-             <div class="login">
-                 <form>
-                     <label for="chk" aria-hidden="true">Giriş</label>
-                     <input type="email" name="email" placeholder="Kullanıcı Adı" required="">
-                     <input type="password" name="pswd" placeholder="Şifre" required="">
-                     <button>Giriş</button>
-                 </form>
-             </div>
-         </div>
-     </bodylogin>
- </bodylogin>
+        <!-- Login Form -->
+        <form>
+            <input type="text" id="KAdi" class="fadeIn second" name="login" placeholder="Kullanıcı Adı">
+            <input type="text" id="Pwd" class="fadeIn third" name="login" placeholder="Şifre">
+            <input type="submit" class="fadeIn fourth" value="Giriş">
+        </form>
 
-</html>
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+            <a class="underlineHover" href="/Home/Register">Hesabınız Yok Mu?</a>
+        </div>
 
-
-
+    </div>
+</div>
